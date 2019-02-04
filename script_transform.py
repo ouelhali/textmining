@@ -319,17 +319,3 @@ if __name__ == "__main__":
       """
 
  
-    #tokenizer = Tokenizer(inputCol="text", outputCol="words")
-    #wordsData = tokenizer.transform(sentenceData)
- 
-    #hashingTF = HashingTF(inputCol="words", outputCol="rawFeatures", numFeatures=20)
-    #featurizedData = hashingTF.transform(wordsData)
-    # alternatively, CountVectorizer can also be used to get term frequency vectors
- 
-    #idf = IDF(inputCol="rawFeatures", outputCol="features")
-    #idfModel = idf.fit(featurizedData)
-    #rescaledData = idfModel.transform(featurizedData)
- 
-    #rescaledData.select("text", "features").show()
-
-    #rescaledData.select("text", "features").show()
